@@ -1,21 +1,5 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-
 // Challenge del juego amigo secreto
 
-
-// Escribe una función que seleccione de manera aleatoria uno de los nombres almacenados en el array amigos. 
-// Usa Math.random() y Math.floor() para obtener un índice aleatorio.
-
-// Tareas específicas:
-
-// Validar que haya amigos disponibles: Antes de sortear, comprobar si el array amigos no está vacío.
-
-// Generar un índice aleatorio: Usar Math.random() y Math.floor() para seleccionar un índice aleatorio del arreglo.
-
-// Obtener el nombre sorteado: Utilizar el índice aleatorio para acceder al nombre correspondiente en el arreglo.
-
-// Mostrar el resultado: Actualizar el contenido del elemento de resultado utilizando document.getElementById()  
-// e innerHTML para mostrar el amigo sorteado.
 
 let amigos = [];
 
@@ -24,9 +8,6 @@ function limpiarCaja(){
 }
 
 lista = document.getElementById("listaAmigos")
-lista.innerHTML = amigos
-
-
 
 function crearLista() {
     lista.innerHTML = ""
@@ -43,7 +24,6 @@ function agregarAmigo(nombre) {
     } else {
         amigos.push(nombre);
         crearLista();   
-        console.log(amigos)
         limpiarCaja();
         return;
     }
