@@ -2,7 +2,7 @@
 
 *Descripción del proyecto:
 Juega el popular juego "Amigo Secreto" en línea, podrás ingresar una lista de amigos
-y el pograma escogerá aleatoriamente un ganador dentro de esta lista.
+y el programa escogerá aleatoriamente un ganador dentro de esta lista.
 
 <em> Tecnologías utilizadas: </em>
 
